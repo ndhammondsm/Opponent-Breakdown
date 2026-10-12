@@ -44,4 +44,8 @@ Summary tabs checked:
 | DEF_3RD_SNAPSHOT | 54 | Snapshot populated |
 | DEF_4TH | 7 | 5 |
 
-SHA-256: `b331f6d77f91b7b1e8adc9d46c2fd064b0db4da0f3a756d964cf3da6e482178c`
+SHA-256: `7b3f00f1f8ee0f1a8a4a156e95336fefa57665c5d50d11fa4ff9698c8125ed58`
+
+## Readability update: remove black fill
+
+Removed the fill overrides from all four conditional-format styles. Confidence, Score Label and formula-check status values now retain their light base cell fills and readable conditional text colors. All 27 worksheet XML parts are byte-for-byte unchanged, preserving every formula, cached result, worksheet view, calculation rule and conditional-format rule. ZIP integrity and XML parsing passed. Actual Excel validation remains unavailable.
